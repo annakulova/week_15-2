@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <form class="js-form" action="" novalidate>
+
+            <div class="form__group">
+                <input type="text" class="input js-input" name="login" placeholder="Login" id="login" >
+            </div>
+
+            <div class="form__group">
+                <input type="text" class="input js-input" name="name" placeholder="Name"  id="name">
+            </div>
+
+            <div class="form__group">
+                <input type="text" class="input js-input" name="last name" placeholder="Last name"  id="lastname">
+            </div>
+
+            <div class="form__group">
+                <input type="email" class="input js-input js-input-email" name="email" placeholder="Email"  id="email">
+            </div>
+
+            <div class="form__group">
+                <input type="tel" class="input js-input js-input-phone" name="phone" placeholder="Phone" id="phone">
+            </div>
+
+            <div class="form__group">
+                <input type="checkbox" class="checkbox__input js-input-checkbox" id="privacy_check">
+                <label class="checkbox__label" for="privacy_check">Accept privacy policy</label>
+            </div>
+
+
+            <div id="errorMessage"></div>
+            <button class="btn" type="submit" onclick="check();">
+                Submit form
+            </button>
+        </form>
+    </div>
+
+    <script></script>
+</body>
+</html>
